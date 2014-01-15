@@ -16,11 +16,12 @@ document.
 ## 1. Dependencies 
 
 As documents are expected to be replaced rather than amended, dependencies on 
-other PSR's should be avoided whenever possbible. For instance:
+other PSR's should be avoided whenever possbible. For instance, the follow is 
+no longer permitted:
 
 > - Namespaces and classes MUST follow PSR-0.
 
-This is no longer allowed. 
+Instead the following example must be used:
 
 > - Namespaces and classes MUST follow an autoloading PSR: [PSR-0].
 
